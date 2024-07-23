@@ -1,0 +1,197 @@
+*{
+     margin: 5px;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: fixed;
+    
+}
+body{
+    padding: 0;
+    margin: 0;
+    color: wheat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0;
+    
+}
+.li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    padding: 10px;
+}
+.li a:hover{
+    color:red;
+    text-align: center;
+}
+.li{
+    font-family: sans-serif;
+    list-style-type: none;
+    display:inline-block;
+    color:black;
+    background-color: gainsboro ;
+    text-align: center;
+    padding: 0px;
+    width: 100px;
+    transition-duration: 0.7s;
+    border-radius: 20px;
+}
+.li:hover{
+    list-style-type: none;
+    background-color: black;
+    color: red;
+    transform: translateX(20px);
+    cursor: pointer;
+}
+input{
+    position:absolute;
+    right:45%;
+    top: 65px;
+    text-align: center;
+    background:transparent;
+    color:black;
+    padding: 5px;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.para{
+    color:white;
+    font-weight: bold;
+    font-size: 200%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    float: left;
+    letter-spacing: 2px;
+}
+.para .head{
+    font-size: 100px;
+    text-decoration: none;
+    text-decoration-line: overline;
+    font-display: initial;
+    display: inline block;
+    padding: 0;
+    color: red;
+    margin: 0;
+    border: 0;
+    float: left;
+}
+h3{
+    color: white;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-top: 150px;
+    margin-top: 0px;
+    letter-spacing: 1px;
+}
+select {
+    transition: 0.5s;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color:white;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+}
+select:hover{
+    box-shadow: 0 0px  30px 0px rgba(5,5,0.5);
+    color: black;
+}
+option {
+    padding: 10px;
+    background-color:white;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card {
+    background-color: lightgrey;
+    transition: 0.5s;
+    padding-right: 50px;
+    position: absolute;
+    right:200px;
+    width: 500px;
+    height: 400px;
+    border-radius: 40px;
+    overflow: scroll;
+    scroll-behavior: auto;
+    scrollbar-width: none;
+    color: black;
+    cursor: pointer;
+}
+.card:hover {
+    box-shadow: 0 0px  30px 5px rgba(5,5,5,0.5);
+    color: black;
+    
+}
+p{
+    padding: 5px;
+    font: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color:black;
+}
+.card1 {
+    background-color: lightgrey;
+    transition: 0.5s;
+    padding-right: 50px;
+    margin: 100px;
+    position: absolute;
+    top: 100%;
+    width: 500px;
+    height: 400px;
+    border-radius: 40px;
+    overflow: scroll;
+    scroll-behavior: auto;
+    scrollbar-width: none;
+    color: black;
+    cursor: pointer;
+}
+.card1:hover {
+    box-shadow: 0 0px  30px 5px rgba(5,5,5,0.5);
+    color: black;
+    
+}
+p{
+    padding: 5px;
+    font: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color:black;
+}
+.card2 {
+    background-color: lightgrey;
+    transition: 0.5s;
+    padding-right: 50px;
+    margin: 100px;
+    position: absolute;
+    top: 1400px;
+    width: 500px;
+    height: 400px;
+    border-radius: 40px;
+    overflow: scroll;
+    scroll-behavior: auto;
+    scrollbar-width: none;
+    color: black;
+    cursor: pointer;
+}
+.card2:hover:hover {
+    box-shadow: 0 0px  30px 5px rgba(5,5,5,0.5);
+    color: black;
+    
+}
+p{
+    padding: 5px;
+    font: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color:black;
+}
